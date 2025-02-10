@@ -17,6 +17,7 @@ With a single keyboard shortcut, Code Toggle Pro:
 3. Gives you more screen real estate for coding
 
 ## Installation
+*This isnt yet on their marketplace. So don't try this part. 
 
 Install through the VSCode Extensions view:
 1. Open Extensions (Ctrl+Shift+X)
