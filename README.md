@@ -24,7 +24,7 @@ Install through the VSCode Extensions view:
 
 ## Usage
 
-Simply click the code visibility button on the Stautus bar. Or press `Ctrl+Shift+E` (Windows/Linux) or `Cmd+Shift+E` (macOS) to toggle the Explorer and maximize your coding area.
+Simply click the code visibility button on the status bar. Or press `Ctrl+Shift+E` (Windows/Linux) or `Cmd+Shift+E` (macOS) to toggle the Explorer and maximize your coding area.
 
 ## Requirements
 
