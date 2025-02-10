@@ -1,6 +1,7 @@
 # Code Toggle Pro VSCode Extension
 
 Code Toggle Pro is a productivity-focused VSCode extension designed to streamline your coding workspace management.
+*It's more just a template for when I make extensions. I had the code sitting around I wrote ages ago so thought I may as well make it available. 
 
 ## Features
 
