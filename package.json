@@ -1,0 +1,51 @@
+{
+  "name": "code-toggle-pro",
+  "displayName": "Code Toggle Pro",
+  "description": "FlipSwitch add an intuitive sidebar button beneath the traditional Explorer button. It's designed to empower developers with more efficient space management and navigation. Easier side-by-side coding by toggling Explorer and a code pane essentially, eliminating the need for a third pane. This setup is ideal for comparing scripts, copying and pasting between files, or simply maximizing your coding area.",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.85.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "activationEvents": [
+    "onCommand:flipswitch.toggleExplorer"
+  ],
+  "main": "./out/extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "flipswitch.toggleExplorer",
+        "title": "FlipSwitch: Toggle Explorer"
+      }
+    ],
+    "keybindings": [
+      {
+        "command": "flipswitch.toggleExplorer",
+        "key": "ctrl+shift+e",
+        "mac": "cmd+shift+e"
+      }
+    ]
+  },
+  "scripts": {
+    "vscode:prepublish": "npm run compile",
+    "compile": "tsc -p ./",
+    "watch": "tsc -watch -p ./",
+    "pretest": "npm run compile && npm run lint",
+    "lint": "eslint src --ext ts",
+    "test": "vscode-test"
+  },
+  "devDependencies": {
+    "@types/mocha": "^10.0.10",
+    "@types/node": "18.x",
+    "@types/vscode": "^1.97.0",
+    "@typescript-eslint/eslint-plugin": "^6.15.0",
+    "@typescript-eslint/parser": "^6.15.0",
+    "@vscode/test-cli": "^0.0.4",
+    "@vscode/test-electron": "^2.3.8",
+    "eslint": "^8.56.0",
+    "mocha": "^11.1.0",
+    "typescript": "^5.3.3"
+  }
+}
